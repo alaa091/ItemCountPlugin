@@ -1,6 +1,10 @@
 # ItemCounterPlugin
 
-A simple Minecraft plugin that counts how many of a specific item a player has in their inventory when they hold that item. Players can use the `/count` command to see the total count of the item in their inventory, with a cooldown to prevent spam. This plugin is compatible with Minecraft 1.21 and uses Spigot API.
+A simple Minecraft plugin that counts how many of a specific item a player has in their inventory when they hold that item. 
+
+Players can use the `/count` command to see the total count of the item in their inventory, with a cooldown to prevent spam.
+
+This plugin is compatible with Minecraft 1.21 and uses Spigot API.
 
 ## Features
 
@@ -17,7 +21,7 @@ A simple Minecraft plugin that counts how many of a specific item a player has i
 
 ## Installation
 
-1. Download the latest release of the ItemCounterPlugin from the [Releases](https://github.com/your-username/ItemCounterPlugin/releases) page.
+1. Download the latest release of the ItemCounterPlugin from the [Releases](https://github.com/alaa091/ItemCounterPlugin/releases) page.
 2. Place the `ItemCounterPlugin.jar` file in your server's `plugins` folder.
 3. Start or restart your Minecraft server.
 
@@ -38,6 +42,7 @@ A simple Minecraft plugin that counts how many of a specific item a player has i
 ## Configuration
 
 The plugin includes a simple configuration file, `config.yml`, located in the `plugins/ItemCounterPlugin` folder. 
+
 Edit the cooldown-period to set the cooldown duration between command uses.
 
 ```yaml
@@ -45,7 +50,9 @@ cooldown-period: 5  # The cooldown period in seconds between uses of the /count 
 ```
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/alaa091/ItemCountPlugin?tab=MIT-1-ov-file) file for details.
 
+## Filnally
 **Enjoy using the ItemCounterPlugin, and feel free to contribute or open issues for any improvements or bug reports!**
+
 You can dm me thrrough Discord --> add me --> Mr.Alaa#0938
