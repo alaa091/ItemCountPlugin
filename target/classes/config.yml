@@ -1,0 +1,4 @@
+# Configuration for ItemCounterPlugin
+
+# Cooldown period for the /count command in seconds
+cooldown-period: 5

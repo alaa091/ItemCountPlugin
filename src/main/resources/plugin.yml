@@ -1,0 +1,17 @@
+name: ItemCounterPlugin
+main: org.alaa.itemcounter.ItemCounterPlugin
+version: 1.0
+api-version: 1.21
+description: A plugin to count items of the same type in a player's inventory, with cooldown and color-coded messages.
+
+commands:
+  count:
+    description: Counts the total number of the item the player is holding.
+    usage: /count
+    permission: itemcounter.use
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  itemcounter.use:
+    description: Allows the player to use the /count command.
+    default: true
